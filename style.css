@@ -1,0 +1,124 @@
+:root {
+  --color1: #1b2440;
+  --color2: #023373;
+  --color3: #91e0f2;
+  --color4: #f2f2f2;
+}
+
+
+
+body {
+  background-color: var(--color3) !important;
+  color: var(--color2) !important;
+}  
+
+div {
+  border-radius: 5% !important;
+}
+
+header {
+  background-image: radial-gradient(var(--color2), var(--color3));
+  color: var(--color4);
+  padding: 0 !important;
+  border-style: groove;
+}
+
+header > div > p {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+
+header a {
+  margin: 30px;
+  color: var(--color4);
+  font-size: 0.6em;
+}
+
+.img {
+  width: 100;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--color2);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+section a {
+  background-color: var(--color2) !important;
+  text-decoration: underline !important;
+}
+
+section a:hover {
+  background-color: var(--color1) !important;
+  text-decoration: underline !important;
+}
+
+.card {
+  background-color: var(--color2);
+  color: var(--color4);
+
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    min-height: 130px;
+  }
+}
+
+
+.menu-completo a {
+  text-decoration: underline !important;
+}
+
+.menu-completo a:hover {
+  text-decoration: underline !important;
+}
+
+
+.instagram:hover{
+  background-image: linear-gradient(
+    90deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  ); /*Instagram */
+  color: transparent; /* Faz o gradiente ser visível */
+  background-clip: text;
+}
+
+.whatsapp:hover{
+  background-image: linear-gradient(45deg, #07ff77, #00ff84);
+  color: transparent;
+  background-clip: text;
+}
+.facebook:hover{
+  background-image: linear-gradient(
+    90deg,
+    #3b5998,
+    #2f55a4,
+    #2050b3
+  ); /*Facebook */
+  color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  text-decoration: underline;
+}
