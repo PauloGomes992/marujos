@@ -17,7 +17,8 @@ div {
 }
 
 header {
-  background-image: radial-gradient(var(--color2), var(--color3));
+  background-image:url(imagens/fundo-do-mar.jpg);
+  text-shadow: 2px 2px black;
   color: var(--color4);
   padding: 0 !important;
   border-style: groove;
